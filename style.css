@@ -1,0 +1,215 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0A0A0A; /* Black background for the entire page */
+    color: #F1F1F1; /* Light gray text for better readability */
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: #F1F1F1; /* Light white for headings */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #1C1C1C; /* Darker black-gray for header */
+    color: #F1F1F1; /* White text */
+    text-align: center;
+    padding: 3rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+/* About Section */
+#about {
+    background-color: #1A1A1A; /* Dark black-gray */
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #2C2C2C; /* Slightly lighter black-gray */
+    padding: 3rem 0;
+}
+
+#skills ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.7rem 1.2rem;
+    background-color: #C0392B; /* Red accent color */
+    color: #F1F1F1; /* White text for contrast */
+    border-radius: 25px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#skills li:hover {
+    background-color: #E74C3C; /* Lighter red on hover */
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+#projects {
+    padding: 3rem 0;
+    background-color: #1C1C1C; /* Black-gray background */
+    text-align: center;
+}
+
+.project-item {
+    display: inline-block;
+    width: 45%;
+    margin: 1rem 2.5%;
+    background-color: #D32F2F; /* Dark red for project items */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover img {
+    transform: scale(1.05);
+}
+
+.project-info {
+    margin-top: 1rem;
+}
+
+.project-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #F1F1F1; /* White color for project titles */
+}
+
+.project-info p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #F1F1F1; /* Light text for descriptions */
+}
+
+.project-info a {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #E74C3C; /* Lighter red for buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.project-info a:hover {
+    background-color: #C0392B; /* Darker red on hover */
+}
+
+/* Contact Section */
+#contact {
+    background-color: #2C2C2C; /* Darker gray for contact section */
+    padding: 3rem 0;
+}
+
+form {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label {
+    font-weight: bold;
+    color: #F1F1F1; /* White text for labels */
+}
+
+form input, form textarea {
+    padding: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background-color: #1C1C1C; /* Dark background for input fields */
+    color: #F1F1F1; /* Light text in inputs */
+    font-size: 1rem;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #C0392B; /* Red border when focused */
+}
+
+form button {
+    padding: 1rem;
+    background-color: #C0392B; /* Red background for submit button */
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #E74C3C; /* Lighter red on hover */
+}
+
+/* Footer Section */
+footer {
+    background-color: #1C1C1C; /* Dark background for footer */
+    color: #F1F1F1; /* White text */
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+footer p {
+    color: #BDC3C7; /* Light gray for footer text */
+}
